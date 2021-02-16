@@ -1,0 +1,13 @@
+main: main.Main
+name: BountyHunter
+version: 1.0
+api-version: 1.13
+author: Blackoutburst
+description: BH
+commands:
+  play:
+    description: Start a game
+    usage: /play
+  l:
+    description: Stop a game
+    usage: /l

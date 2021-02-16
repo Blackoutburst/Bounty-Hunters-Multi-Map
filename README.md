@@ -1,3 +1,3 @@
 # Bounty-Hunters-Multi-Map
-Clone of Hypixel Boutny Hunters games but with multiple map supported
+Clone of Hypixel Bounty Hunters games but with multiple map supported
 ![reason](reason.PNG)

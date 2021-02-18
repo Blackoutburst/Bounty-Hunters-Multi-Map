@@ -12,9 +12,9 @@ public class PlayerComparator implements Comparator<GamePlayer> {
 	 * @param a
 	 * @param b
 	 */
-    public int compare(GamePlayer a, GamePlayer b) {
-        int comparator = Integer.valueOf(b.getScore()).compareTo(a.getScore());
-        
-        return comparator == 0 ? Integer.valueOf(b.getScore()).compareTo(a.getScore()) : comparator;
-    }
+	public int compare(GamePlayer a, GamePlayer b) {
+		int comparator = Integer.valueOf(b.getScore()).compareTo(a.getScore());
+		
+		return comparator == 0 ? Integer.valueOf(b.getScore()).compareTo(a.getScore()) : comparator;
+	}
 }

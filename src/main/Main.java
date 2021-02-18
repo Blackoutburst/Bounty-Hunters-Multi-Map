@@ -28,17 +28,17 @@ public class Main extends JavaPlugin implements Listener {
 		game.init();
 	}
 		
-    @Override
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-    	switch(command.getName().toLowerCase()) {
-    		case "play": return game.start();
-    		case "l": return game.stop();
-    		default: return false;
-    	}
-    }
-    
-    @Override
-    public void onDisable() {}
+	@Override
+	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+		switch(command.getName().toLowerCase()) {
+			case "play": return game.start();
+			case "l": return game.stop();
+			default: return false;
+		}
+	}
+	
+	@Override
+	public void onDisable() {}
 		
 	@EventHandler
  	public void onPlayerJoin(PlayerJoinEvent event) {
